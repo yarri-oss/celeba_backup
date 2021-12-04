@@ -18,6 +18,6 @@ tf.__version__    # should be 2.7.0
 
 import tensorflow_datasets as tfds
 import celeba_backup
-ds = tfds.load('celeba_backup')
+ds = tfds.load('celeba_backup', split='train')
 ```
 
